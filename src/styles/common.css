@@ -1,0 +1,74 @@
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+
+.mybar .el-progress-bar__outer {
+    background-color: rgba(235, 238, 245, 0.21);
+}
+.index .ivu-card.ivu-card-shadow:hover{
+    box-shadow: 1px 1px 3px 1px rgba(7, 166, 255, 0.67);
+}
+.demo-drawer-footer{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-top: 1px solid #e8e8e8;
+        padding: 10px 16px;
+        text-align: right;
+        background: #fff;
+    }
+     .bigdatatable  .ivu-table tr{
+         cursor: pointer
+     }
+    .bigdatatable .ivu-table, .bigdatatable  .ivu-table th, .bigdatatable  .ivu-table td{
+        background-color: transparent!important;
+    }
+     .bigdatatable .ivu-table *{
+         color: #fff
+     }
+     .bigdatatable .ivu-table-overflowY::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+.bigdatatable .ivu-table-overflowY::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 10px;
+         -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.2);
+        background: #07a6ff;
+    }
+.bigdatatable .ivu-table-overflowY::-webkit-scrollbar-track {/*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background: #041c36;
+    }
+  .bigdatatable  .ivu-table td,.bigdatatable .ivu-table th{
+      border-bottom: none
+  }
+  .bigdatatable .ivu-table-row-highlight td{
+      background-color: #07a6ff!important
+  }
+  .pageTable .ivu-page-total,.pageTable .ivu-page-options-elevator{
+    color: #fff
+  }
+    .bigdatatable .ivu-badge{
+margin-right: 30px
+    }
+  .demo-badge-alone{
+       background:#07a6ff !important;
+       
+  }
+  .vertical-center-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+   .vertical-center-modal  .ivu-modal {
+        top: 0;
+    }
+    .ivu-tag-blue{
+        line-height: 32px!important;
+    }
+    .ivu-tag-blue .ivu-tag-dot-inner{
+        background-color: #91d5ff!important;
+    }
