@@ -12,7 +12,7 @@
   "author": "cmh",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "countup": "^1.8.2",
     "echarts": "^4.2.0-rc.2",
     "element-ui": "^2.4.11",
